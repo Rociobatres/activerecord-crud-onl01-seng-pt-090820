@@ -5,5 +5,7 @@ class CreateMovies < ActiveRecord::Migration[5.2]
     add_column :movie, :director, :string 
     add_column :movie, :lead, :string 
     add_column :movie, :in_theaters, :boolean 
+  create_table :movie do |t|
+  end 
   end
 end
